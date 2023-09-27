@@ -4,11 +4,13 @@
 #include <string>
 #include <vector>
 
+#include "linux_parser.h"
 #include "process.h"
 
 using std::string;
 using std::to_string;
 using std::vector;
+using namespace LinuxParser; 
 
 // TODO: Return this process's ID
 int Process::Pid() { return 0; }
